@@ -1,6 +1,6 @@
 let app = {
 	init: () => {
-		app.fizzBuzz(20, 0);
+		app.fizzBuzz(1, 100);
 	},
 
 	fizzBuzz: (start, end) => {
