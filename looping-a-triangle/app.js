@@ -7,7 +7,7 @@ let app = {
 		let character = '#';
 		let output = '';
 
-		for (let i = 1; i <= size; i++ ) {
+		while (output.length < size) {
 			output += character;
 
 			console.log(output);
