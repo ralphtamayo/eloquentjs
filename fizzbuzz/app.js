@@ -1,9 +1,9 @@
 let app = {
 	init: () => {
-		app.fizzBuzz(1, 100);
+		app.fizzbuzz(1, 100);
 	},
 
-	fizzBuzz: (start, end) => {
+	fizzbuzz: (start, end) => {
 		let current = start;
 
 		while (current <= end) {
@@ -20,7 +20,7 @@ let app = {
 				console.log(current);
 			}
 
-			current++;
+			current ++;
 		}
 	},
 }
